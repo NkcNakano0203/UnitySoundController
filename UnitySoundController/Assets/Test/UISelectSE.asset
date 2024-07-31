@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c680d94d4f124ff47af2454f00cbdf6e, type: 3}
-  m_Name: SE
+  m_Name: UISelectSE
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: 4d910400da6eb7b4dbe7efaeee45a1a6, type: 3}
   <Volume>k__BackingField: 0.5
