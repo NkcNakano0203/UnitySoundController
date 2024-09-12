@@ -1,9 +1,9 @@
-using Service.SE;
-using Service.SE.Data;
+using UnitySoundController.SE;
+using UnitySoundController.SE.Data;
 using UnityEngine;
 using Cysharp.Threading.Tasks;
 using System.Threading;
-using Service.BGM;
+using UnitySoundController.BGM;
 
 public class Test : MonoBehaviour
 {

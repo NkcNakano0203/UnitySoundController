@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c680d94d4f124ff47af2454f00cbdf6e, type: 3}
   m_Name: UISelectSE
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: 4d910400da6eb7b4dbe7efaeee45a1a6, type: 3}
-  <Volume>k__BackingField: 0.5
-  <RandomPitch>k__BackingField: 0
-  <MinPitch>k__BackingField: -3
-  <MaxPitch>k__BackingField: 3
-  <Audio3D>k__BackingField: 0
-  <MaxMultiPlayCount>k__BackingField: 200
+  Clip: {fileID: 0}
+  Volume: 1
+  RandomPitch: 1
+  MinPitch: -3
+  MaxPitch: 3
+  Audio3D: 0
+  MaxMultiPlayCount: 3

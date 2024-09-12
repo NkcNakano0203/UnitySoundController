@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using Cysharp.Threading.Tasks;
-using Service.BGM.Data;
+using UnitySoundController.BGM.Data;
 
-namespace Service.BGM
+namespace UnitySoundController.BGM
 {
     [RequireComponent(typeof(AudioSource))]
     public class MusicPlayer : MonoBehaviour

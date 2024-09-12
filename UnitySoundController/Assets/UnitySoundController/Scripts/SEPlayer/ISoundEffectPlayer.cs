@@ -1,9 +1,9 @@
 ﻿using Cysharp.Threading.Tasks;
-using Service.SE.Data;
 using System.Threading;
 using UnityEngine;
+using UnitySoundController.SE.Data;
 
-namespace Service.SE
+namespace UnitySoundController.SE
 {
     public interface ISoundEffectPlayer
     {

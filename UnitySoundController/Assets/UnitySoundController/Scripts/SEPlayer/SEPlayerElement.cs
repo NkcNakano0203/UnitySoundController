@@ -1,9 +1,9 @@
-﻿using UnityEngine;
-using Cysharp.Threading.Tasks;
+﻿using Cysharp.Threading.Tasks;
 using System.Threading;
-using Service.SE.Data;
+using UnityEngine;
+using UnitySoundController.SE.Data;
 
-namespace Service.SE.Element
+namespace UnitySoundController.SE.Element
 {
     [RequireComponent(typeof(AudioSource))]
     public class SEPlayerElement : MonoBehaviour

@@ -1,32 +1,24 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Service.SE.Data
+namespace UnitySoundController.SE.Data
 {
     [CreateAssetMenu(fileName = "SE", menuName = "Audio/SoundEffect")]
     public class SoundEffect : ScriptableObject, IDisposable
     {
-        [SerializeField, Tooltip("音声データ")]
-        private AudioClip clip;
-        public AudioClip Clip => clip;
+        public AudioClip Clip;
 
-        [field: SerializeField, Range(0f, 1f), Header("音量")]
-        public float Volume { get; private set; } = 1;
+        public float Volume = 1;
 
-        [field: SerializeField, Header("ピッチを乱数化")]
-        public bool RandomPitch { get; private set; } = false;
+        public bool RandomPitch = false;
 
-        [field: SerializeField, Range(-3f, 3f), Header("最低ピッチ")]
-        public float MinPitch { get; private set; } = -3f;
+        public float MinPitch = -3f;
 
-        [field: SerializeField, Range(-3f, 3f), Header("最高ピッチ")]
-        public float MaxPitch { get; private set; } = 3f;
+        public float MaxPitch = 3f;
 
-        [field: SerializeField, Header("立体音響")]
-        public bool Audio3D { get; private set; } = true;
+        public bool Audio3D = false;
 
-        [field: SerializeField, Header("同時再生数")]
-        public int MaxMultiPlayCount { get; private set; } = 3;
+        public int MaxMultiPlayCount = 3;
 
         /// <summary>
         /// 各SEの現在の再生数
@@ -37,7 +29,7 @@ namespace Service.SE.Data
         public static SoundEffect Create(AudioClip clip)
         {
             SoundEffect instance = CreateInstance<SoundEffect>();
-            instance.clip = clip;
+            instance.Clip = clip;
             return instance;
         }
         public void SetUp()

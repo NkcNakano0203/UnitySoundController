@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3834084816291778667}
   - component: {fileID: 2126490425967570278}
+  - component: {fileID: -5556772972813798747}
   m_Layer: 0
   m_Name: SEPlayer
   m_TagString: Untagged
@@ -46,3 +47,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultCapacity: 10
   displayPlayingCount: 0
+--- !u!114 &-5556772972813798747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8596914654866834612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2af365e8c0675b4d89f81f7441644fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundEffectPlayer: {fileID: 2126490425967570278}

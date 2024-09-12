@@ -1,12 +1,12 @@
 ﻿using Cysharp.Threading.Tasks;
-using Service.SE.Data;
-using Service.SE.Element;
+using UnitySoundController.SE.Data;
+using UnitySoundController.SE.Element;
 using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 using UnityEngine.Pool;
 
-namespace Service.SE
+namespace UnitySoundController.SE
 {
     public class SoundEffectPlayer : MonoBehaviour, ISoundEffectPlayer, ISoundEffectController
     {

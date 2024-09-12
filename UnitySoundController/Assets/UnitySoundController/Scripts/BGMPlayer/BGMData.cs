@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Service.BGM.Data
+namespace UnitySoundController.BGM.Data
 {
     [CreateAssetMenu(menuName = "Audio/BGMData")]
     public class BGMData : ScriptableObject

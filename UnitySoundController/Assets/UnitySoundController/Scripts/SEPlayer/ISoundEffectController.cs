@@ -1,4 +1,4 @@
-﻿namespace Service.SE
+﻿namespace UnitySoundController.SE
 {
     public interface ISoundEffectController
     {
