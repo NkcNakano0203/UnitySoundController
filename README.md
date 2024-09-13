@@ -29,8 +29,17 @@ Unity環境でのBGM、SE管理を楽にするライブラリです。
 
 2. 作成した`SEData`にAudioClipや音量等を設定します。
 
-![image](https://github.com/user-attachments/assets/68b598ae-417a-4b25-a710-95b3dfd30137)
+![image](https://github.com/user-attachments/assets/9f051c4d-dedd-4aef-a2f8-b9bafacd09aa)
+
 
 3. 鳴らしたいクラスで`SoundEffectPlayer`と`SEData`を取得し、`soundEffectPlayer.PlayAsync()`メソッドで再生することができます。
 
 ![image](https://github.com/user-attachments/assets/9497f83d-1b9f-4f0b-ab00-ca79429d1505)
+
+- Ver1.0.1で追加した`SoundAssistant`によってButtonコンポーネントなどにあるUnityEventにアタッチするだけで再生できるようになりました。
+
+![image](https://github.com/user-attachments/assets/6fe7f079-3bc9-4c6d-9247-f1bad280d109)
+
+1. SoundAssistant>Play(Object)を選択すると、アタッチしたSountEffectを再生することができます。
+
+![image](https://github.com/user-attachments/assets/e042f6ac-5ccd-4b6d-a07d-be18676fa203)
